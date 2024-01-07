@@ -25,14 +25,14 @@ final class VerificarGradoTest extends TestCase{
     #[TestDox('Teste para verificar Tercera Division')]
     public function test_TerceraDivision():void{
         //utilizo assertEquals porque necesito comparar texto brindado por la funcion gradoEstudiante
-        $this->assertEquals("Tercera Division",gradoEstudiante(33));
+        $this->assertEquals("Tercera Division",gradoEstudiante(34));
         $this->assertEquals("Tercera Division",gradoEstudiante(44));
     }
     #[Test]
     #[TestDox('Teste para verificar Reprobado')]
     public function test_reprobado():void{
         //utilizo assertEquals porque necesito comparar texto brindado por la funcion gradoEstudiante
-        $this->assertEquals("Reprobado",gradoEstudiante(32));
+        $this->assertEquals("Reprobado",gradoEstudiante(33));
         $this->assertEquals("Reprobado",gradoEstudiante(0));
     }
 }
