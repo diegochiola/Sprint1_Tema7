@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">    
+    <testsuites>
+        <testsuite name="unit">
+            <directory phpVersion="8.3.0" phpVersionOperator= ">=">unit</directory>
+        </testsuite>
+
+        <testsuite name="integration">
+            <directory phpVersion="8.3.0" phpVersionOperator= ">=">integration</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <testdoxHtml outputFile="report/testdox.html"/>
+         <testdoxText outputFile="report/testdox.txt"/>
+    </logging>
+
+</phpunit>
