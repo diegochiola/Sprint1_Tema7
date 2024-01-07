@@ -3,7 +3,7 @@
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\Attributes\TestDox;
 use PHPUnit\Framework\TestCase;
-require_once 'VerificarGrado.php';
+require_once 'gradoEstudiante.php';
 final class TestVerificarGrado extends TestCase{
 //Creacion de test para cada division:
 //primera division
