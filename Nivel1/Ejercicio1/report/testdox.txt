@@ -1,4 +1,4 @@
 Number Checker
  [x] Test para corroborar si el numero es par
- [x] Test para corroborar que el numero seapositivo
+ [x] Test para corroborar que el numero sea positivo
 

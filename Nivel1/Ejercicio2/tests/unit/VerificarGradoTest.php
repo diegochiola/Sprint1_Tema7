@@ -3,8 +3,8 @@
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\Attributes\TestDox;
 use PHPUnit\Framework\TestCase;
-require_once '/Applications/XAMPP/xamppfiles/htdocs/PHP/Sprint1_Tema7/Nivel1/Ejercicio2/tests/unit/gradoEstudiante.php';
-final class TestVerificarGrado extends TestCase{
+require_once '/Applications/XAMPP/xamppfiles/htdocs/PHP/Sprint1_Tema7/Nivel1/Ejercicio2/src/gradoEstudiante.php';
+final class VerificarGradoTest extends TestCase{
 //Creacion de test para cada division:
 //primera division
     #[Test]
@@ -35,8 +35,5 @@ final class TestVerificarGrado extends TestCase{
         $this->assertEquals("Reprobado",gradoEstudiante(32));
         $this->assertEquals("Reprobado",gradoEstudiante(0));
     }
-
-
 }
-
 ?>

@@ -1,1 +1,1 @@
-{"version":1,"defects":{"NumberCheckerTest::test_isEven":8,"NumberCheckerTest::test_isPositive":8},"times":{"NumberCheckerTest::test_isEven":0.003,"NumberCheckerTest::test_isPositive":0}}
+{"version":1,"defects":{"NumberCheckerTest::test_isEven":8,"NumberCheckerTest::test_isPositive":8},"times":{"NumberCheckerTest::test_isEven":0.004,"NumberCheckerTest::test_isPositive":0}}
