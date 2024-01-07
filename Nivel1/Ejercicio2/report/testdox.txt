@@ -1,0 +1,6 @@
+Verificar Grado
+ [x] Teste para verificar Primera Division
+ [x] Teste para verificar Segunda Division
+ [ ] Teste para verificar Tercera Division
+ [x] Teste para verificar Reprobado
+
