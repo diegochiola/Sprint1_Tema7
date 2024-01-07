@@ -1,5 +1,5 @@
 {
-    "name": "diegochiola/ejercicio1",
+    "name": "diegochiola/ejercicio2",
     "require-dev": {
         "phpunit/phpunit": "^10.5"
     },
@@ -8,7 +8,6 @@
         "name": "diegochiola"
     }
     ],
-    "require": {}, 
     "autoload": {
         "psr-4": {
             "Src\\": "src/"
