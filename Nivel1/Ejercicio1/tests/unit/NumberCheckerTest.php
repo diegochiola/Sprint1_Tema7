@@ -14,13 +14,17 @@ final class NumberCheckerTest extends TestCase{
         $numeroImpar = new NumberChecker(21);
 
         $this->assertTrue($numeroPar->isEven());
-        $this->assertFalse($numeroImpar->isEven());
-
+        $this->assertNotTrue($numeroImpar->isEven());
     }
+
     #[Test]
     #[TestDox('Test para corroborar que el numero seapositivo')]
     public function test_isPositive():void{
+        $numeroPositivo = new NumberChecker(2);
+        $numeroNegativo = new NumberChecker(-5);
 
+        $this->assertTrue($numeroPositivo->isPositive());
+        $this->assertNotTrue($numeroNegativo->isPositive());
     } 
 }
 
